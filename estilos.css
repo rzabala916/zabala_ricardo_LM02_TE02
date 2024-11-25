@@ -1,0 +1,96 @@
+body {
+	text-align: center;
+	margin: 2px;
+	/* Se ha usado flexbox en columnas pero podría haberse obviado porque
+	es como se posicionan por defecto las etiquetas semánticas */
+	display: flex;
+	flex-direction: column;
+}
+
+header, footer, nav, main, section,article {
+	background-color: rgb(9, 109, 122);
+	color: #fff;
+	border-radius: 2px;
+	padding: 2px;
+	font-size: 1.5rem;
+}
+
+/* Estilos de la cabecera */
+header {
+	/* Propiedad para que el posicionamiento absoluto funcione dentro */
+
+}
+
+.logo{
+	width: 10rem;
+	height: 4rem;
+}
+
+header h4 {
+	width: 10rem;
+	height: 1.5rem;
+	background-color: rgb(9, 109, 122);
+}
+
+/* Estilos del menú de navegación */
+nav ul {
+	/* Para posicionar la lista en una fila */
+
+	list-style: none;
+	margin: 10; 
+	background-color: deepskyblue;
+  }
+
+  nav li {
+	padding: 1em;
+}
+nav ul a {
+	text-decoration: none;
+	color: white;
+  }
+
+ul a:hover {
+	background-color: rgb(9, 109, 122);
+  }
+
+/* Estilos del bloque main */
+main {
+	padding-right: 1.5rem;
+	border-radius: 2px;
+  }
+
+  /* Imagen float y texto alrededor */
+.imagen-float {
+	width: 28%;
+	margin:1rem 1rem;
+}
+
+.texto {
+	padding-left: 1rem;
+	text-align: justify ;
+	line-height: 2rem;;
+}
+
+/* Información sobre los ciclos */
+article {
+	background-color: deepskyblue;
+	border-radius: 10px;
+	font-size: 1.2rem;
+
+	/* propiedad para visualizar en línea */
+
+	margin: 5px;
+	margin-bottom: 25px;
+	padding-right: 25px;
+}
+
+article ul li {
+	text-align: left;
+}
+
+/* Posicionamiento fixed para la flecha */
+.fijado {
+	height: 5rem;
+	width:5rem;
+	background-color: salmon;
+}

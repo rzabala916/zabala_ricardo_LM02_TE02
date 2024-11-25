@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head> 
+    <meta charset="utf-8">
+    <title>Ejercicio TA6-LM02 posicionamiento</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+ <!-- h ref: carpeta/archivo -->
+<body>
+  <!-- Encabezado.header Se usa posicionamiento absoluto -->
+  <header> 
+    <h1>BIRT</h1>
+    <h4> LMSGI - UD2</h4>
+    <img class="logo" src="img/logo.png" id="inicio"/>
+  </header>
+
+  <!-- Menú de navegación. nav, Usa flexbox -->
+  <nav>
+    <ul class="navigation">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#nosotros">Sobre nosotros</a></li>
+      <li><a href="#ciclos">Ciclos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Bloque principal, Se usa float para la imagen e inline-block para los artículos -->
+  <main>
+    <section>
+      <h1>Sobre nosotros</h1>
+      <img class="imagen-float" src="img/birt_1.jpg" alt="imagen" />
+
+      <p class="texto">BIRTLH es el único centro público dependiente del Departamento de Educación del Gobierno Vasco que ofrece titulaciones de formación profesional en las modalidades telemática y semipresencial, con ámbito de actuación en los tres territorios históricos de la Comunidad Autónoma.
+        Se creó en 2011 como Instituto Vasco de Formación Profesional a Distancia (ULHI), con sede en Vitoria-Gasteiz, para implantar esta modalidad según lo dispuesto en la ORDEN de 11 de octubre de 2010.En 2018, tras la aprobación de la LEY 4/2018 de Formación Profesional del País Vasco, se transformó en el Centro Integrado de Formación Profesional de Aprendizajes Virtuales y Digitalizados (BIRTLH) e incorporó la formación para el empleo mediante certificados de profesionalidad. Al mismo tiempo, 
+        trasladó su sede a Donostia, si bien mantiene la sede inicial de Gasteiz como punto de atención del territorio. 
+        El cambio de denominación, además de recoger la transformación a centro integrado, ha querido hacer hincapié en aspectos destacados del proyecto y colocar el foco sobre una potente modernización de las metodologías didácticas, así como una utilización más intensiva de las tecnologías.
+      </p>
+      <p class="texto"> BIRTLH es un centro único y singular que ofrece formación flexible con oferta modular para permitir distintos itinerarios de aprendizaje a quienes no pueden acceder a una formación presencial. Cuando las competencias del módulo lo requieren, la formación telemática puede combinarse con sesiones presenciales que se imparten a través de una extensa red de centros colaboradores, permitiendo dar servicio al alumnado en los tres territorios.  
+        A lo largo de estos años el centro ha ido aumentando y diversificando su oferta formativa al tiempo que consolidaba su modelo educativo, siempre con las y los estudiantes como centro de la actividad.
+      </p>
+    </section>
+      
+    <section>
+      <h2>CICLOS</h2>
+      <article>
+        <h2>DAM</h2>
+          <ul>
+            <li>Desarrollar aplicaciones informáticas para la gestión empresarial y de negocio.</li>
+            <li>Desarrollar aplicaciones de propósito general.</li>
+            <li>Desarrollar aplicaciones en el ámbito del entretenimiento y la informática móvil.</li>
+          </ul>
+      </article>
+      <article>
+        <h2>DAW</h2>
+        <ul>
+          <li>Programadora o Programador Web</li>
+          <li>Desarrollar aplicaciones de propósito general.</li>
+          <li>Desarrollar aplicaciones en el ámbito del entretenimiento y la informática móvil.</li>
+        </ul>
+      </article>
+  
+    </section>
+  </main> 
+
+  <!--Pie de página -->
+  <footer>
+    <p>BIRTLH ©</p> 
+  </footer>
+
+  <!-- Bloque accesorio para ir al inicio. Se usa posicionamiento fixed -->
+  <aside>
+    <a href="#inicio"> <img class="fijado" src="img/flecha.png" /></a> 
+  </aside>
+</body>
+</html>
